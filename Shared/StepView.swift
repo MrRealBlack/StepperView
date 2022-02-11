@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StepModel: Hashable {
-    var stepCount: Int
+    var stepNumber: Int
     var title: String
     var state: StepState = .notPassed
 }
@@ -55,16 +55,16 @@ struct StepView: View {
                     .strokeBorder(step.state.borderColor, lineWidth: 4)
                     .background(Circle().fill(step.state.color))
                     .frame(width: 30, height: 30)
-                Text("\(step.stepCount)")
+                Text("\(step.stepNumber)")
             }
         }.onTapGesture {
-            currentStep = step.stepCount
+            currentStep = step.stepNumber
         }
     }
 }
 
 struct StepView_Previews: PreviewProvider {
     static var previews: some View {
-        StepView(step: StepModel(stepCount: 0, title: "New", state: .passed))
+        StepView(step: StepModel(stepNumber: 0, title: "New", state: .passed))
     }
 }

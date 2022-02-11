@@ -11,11 +11,11 @@ struct ContentView: View {
     
     @State var currentState = 1
     let steps = [
-        StepModel(stepCount: 1, title: "One"),
-        StepModel(stepCount: 2, title: "Two"),
-        StepModel(stepCount: 3, title: "Three"),
-        StepModel(stepCount: 4, title: "Four"),
-        StepModel(stepCount: 5, title: "‍Five")
+        StepModel(stepNumber: 1, title: "One"),
+        StepModel(stepNumber: 2, title: "Two"),
+        StepModel(stepNumber: 3, title: "Three"),
+        StepModel(stepNumber: 4, title: "Four"),
+        StepModel(stepNumber: 5, title: "‍Five")
     ]
     
     var body: some View {

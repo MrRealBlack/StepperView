@@ -26,11 +26,11 @@ struct StepperView: View {
         self.steps = steps
         _currentStep = currentStep
         for i in 0..<self.steps.count {
-            if self.steps[i].stepCount < currentStep.wrappedValue {
+            if self.steps[i].stepNumber < currentStep.wrappedValue {
                 self.steps[i].state = .passed
-            } else if self.steps[i].stepCount == currentStep.wrappedValue {
+            } else if self.steps[i].stepNumber == currentStep.wrappedValue {
                 self.steps[i].state = .current
-            } else if steps[i].stepCount > currentStep.wrappedValue {
+            } else if steps[i].stepNumber > currentStep.wrappedValue {
                 self.steps[i].state = .notPassed
             }
         }
@@ -98,11 +98,11 @@ struct StepperView: View {
 struct StepperView_Previews: PreviewProvider {
     static var previews: some View {
         StepperView(steps: [
-            StepModel(stepCount: 1, title: "1"),
-            StepModel(stepCount: 2, title: "2"),
-            StepModel(stepCount: 3, title: "3"),
-            StepModel(stepCount: 4, title: "4"),
-            StepModel(stepCount: 5, title: "5")
+            StepModel(stepNumber: 1, title: "1"),
+            StepModel(stepNumber: 2, title: "2"),
+            StepModel(stepNumber: 3, title: "3"),
+            StepModel(stepNumber: 4, title: "4"),
+            StepModel(stepNumber: 5, title: "5")
         ], currentStep: .constant(4))
     }
 }
