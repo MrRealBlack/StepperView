@@ -1,7 +1,7 @@
 # StepperView
 Custom stepper view by SwiftUI
 
-![Uploading Simulator Screen Shot - iPhone 12 - 2022-02-11 at 18.46.39 2.png…]()
+![Simulator Screen Shot - iPhone 12 - 2022-02-11 at 18 46 39 2](https://user-images.githubusercontent.com/20265908/153620702-c2292ca3-1424-49fa-a206-3d54999f54d9.png)
 
 ### Run Requirements
 
