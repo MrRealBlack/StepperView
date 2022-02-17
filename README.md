@@ -5,8 +5,9 @@ Custom stepper view built in SwiftUI
 
 ### Run Requirements
 
-* Xcode 12
-* Swift 5
+* iOS 13.0+
+* Xcode 11.2+
+* Swift 5+
 
 #### How to use?
 Using Stepper View is very simple. Just need to create an inatanse of `StepperView` and give it your items as `StepModel`.
