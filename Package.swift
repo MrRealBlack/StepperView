@@ -6,9 +6,6 @@ import PackageDescription
 let package = Package(
 
     name: "StepperView",
-    platforms: [
-          .iOS(.v13)
-        ],
     products: [
         .library(name: "StepperView",   targets: ["StepperView"]),
     ],
