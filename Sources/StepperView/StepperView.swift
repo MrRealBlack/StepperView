@@ -1,10 +1,3 @@
-//
-//  StepView.swift
-//  Stepper View
-//
-//  Created by Mehdi Gilanpour on 2/10/22.
-//
-
 import SwiftUI
 
 enum DirectionType {
@@ -93,16 +86,4 @@ struct StepperView: View {
         }
     }
 
-}
-
-struct StepperView_Previews: PreviewProvider {
-    static var previews: some View {
-        StepperView(steps: [
-            StepModel(stepNumber: 1, title: "1"),
-            StepModel(stepNumber: 2, title: "2"),
-            StepModel(stepNumber: 3, title: "3"),
-            StepModel(stepNumber: 4, title: "4"),
-            StepModel(stepNumber: 5, title: "5")
-        ], currentStep: .constant(4))
-    }
 }
