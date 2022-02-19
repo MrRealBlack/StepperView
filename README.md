@@ -1,6 +1,10 @@
 # StepperView
 Custom stepper view built in SwiftUI
 
+[![Swift](https://img.shields.io/badge/Swift-5.3_5.4_5.5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5-Orange?style=flat-square)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+
 ![Simulator Screen Shot - iPhone 12 - 2022-02-11 at 18 46 39 2](https://user-images.githubusercontent.com/20265908/153620702-c2292ca3-1424-49fa-a206-3d54999f54d9.png)
 
 ### Run Requirements
