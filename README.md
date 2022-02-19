@@ -10,11 +10,10 @@ Custom stepper view built in SwiftUI
 * Swift 5+
 
 ### Installation
-
-### Swift Package Manager
+#### Swift Package Manager
 In Xcode 11 or greater, navigate to `File > Swift Packages > Add Package Dependency...`. From there just simply add `https://github.com/MrRealBlack/StepperView` as the package repository url and use the main branch or the most recent version.
 
-#### How to use?
+### How to use?
 Using Stepper View is very simple. Just need to create an inatanse of `StepperView` and give it your items as `StepModel`.
 
 ```
