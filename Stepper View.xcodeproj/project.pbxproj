@@ -28,6 +28,7 @@
 		4789C53B27B54F1600CE4DC5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4789C54B27B54F3E00CE4DC5 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		4789C54E27B5515400CE4DC5 /* StepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepView.swift; sourceTree = "<group>"; };
+		479A35E327C0E2FF009FBD17 /* StepperView */ = {isa = PBXFileReference; lastKnownFileType = text; path = StepperView; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		4789C52B27B54F1400CE4DC5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				479A35E327C0E2FF009FBD17 /* StepperView */,
 				4789C52C27B54F1400CE4DC5 /* Stepper_ViewApp.swift */,
 				4789C52D27B54F1400CE4DC5 /* ContentView.swift */,
 				4789C52E27B54F1600CE4DC5 /* Assets.xcassets */,
