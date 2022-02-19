@@ -1,7 +1,7 @@
 # StepperView
 Custom stepper view built in SwiftUI
 
-[![Swift](https://img.shields.io/badge/Swift-5.3_5.4_5.5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5-Orange?style=flat-square)
+[![Swift](https://img.shields.io/badge/Swift-5-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.3_5.4_5.5-Orange?style=flat-square)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
 
@@ -20,7 +20,7 @@ In Xcode 11 or greater, navigate to `File > Swift Packages > Add Package Depende
 ### How to use?
 Using Stepper View is very simple. Just need to create an inatanse of `StepperView` and give it your items as `StepModel`.
 
-```
+```swift
     @State var currentState = 1
 
     let steps = [
